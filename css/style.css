@@ -10,13 +10,13 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Josefin Slab', serif;
 	color: white;
 	background-color: #528B8B;
 }
 
 h1{
 	text-align: center;
+	font-family: 'Josefin Slab', serif;
 	font-size: 48px;
 	margin: 0 auto;
 }
@@ -25,10 +25,18 @@ h2{
 	text-align: center;
 }
 
+p{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	margin: 0 auto;
+}
+
 ul{
 	text-align: center;
 	list-style-type: none;
 }
+
 li {
 	display: inline-block;
 	padding-right: 24px;
