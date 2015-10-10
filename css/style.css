@@ -26,6 +26,11 @@ p{
 	font-size: 30px;
 }
 
+b,
+strong {
+	font-weight: 700;
+}
+
 ul{
 	text-align: center;
 	list-style-type: none;
