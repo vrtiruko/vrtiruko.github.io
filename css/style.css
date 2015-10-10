@@ -8,8 +8,8 @@ html {
 
 body {
 	height: 100%;
-	margin: 20px;
-	padding: 40px;
+	margin: 20px auto;
+	padding: 40px auto;
 	color: white;
 	background-color: #C1E1A6;
 }
