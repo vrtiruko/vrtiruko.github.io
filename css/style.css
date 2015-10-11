@@ -1,7 +1,6 @@
 html {
 	height: 100%;
 	width: 100%;
-	overflow: hidden;
 	min-width: 100%;
 	min-height: 100%;
 }
@@ -12,6 +11,13 @@ body {
 	padding: 40px auto;
 	color: white;
 	background-color: #C1E1A6;
+}
+
+.siteHeader{
+	width: 10%;
+	height: 200px;
+	margin: 0 auto
+	overflow: hidden;
 }
 
 h1{
