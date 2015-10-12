@@ -26,8 +26,13 @@ body {
 .jumbotron {
 	height: 350px;
 	color: white;
+	background: url('/assets/sunset.jpg') no-repeat center center;
+	position: fixed;
+	width: 100%;
 	text-shadow: #444 0 1px 1px;
-	background:transparent;
+	top:0;
+	left:0;
+	z-index: -1;
 }
 
 
@@ -47,11 +52,6 @@ p{
 b,
 strong {
 	font-weight: 700;
-}
-
-#polygon {
-	-webkit-clip-path: polygon(50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
-	clip-path: polygon(50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
 }
 
 ul{
