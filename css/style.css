@@ -10,7 +10,7 @@ body {
 	margin: 20px auto;
 	padding: 40px auto;
 	background-image: url('/assets/mint-geometric1.jpg');
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center center;
 	
 }
