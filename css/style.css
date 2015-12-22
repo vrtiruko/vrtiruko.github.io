@@ -18,12 +18,12 @@ body {
 h1{
 	text-align: left;
 	font-family: 'Josefin Slab', serif;
-	font-size: 150px;
+	font-size: 100px;
 	margin: 20px 40px;
 }
 
 p{
-	text-align: left;
+	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 }
