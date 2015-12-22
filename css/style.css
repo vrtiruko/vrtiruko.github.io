@@ -9,9 +9,8 @@ body {
 	height: 100%;
 	margin: 20px auto;
 	padding: 40px auto;
-	background-image: url('/assets/mint-geometric1.jpg');
-	background-repeat: repeat;
-	background-position: center center;
+	color: #96C8A2;
+	
 	
 }
 
@@ -20,6 +19,9 @@ h1{
 	font-family: 'Josefin Slab', serif;
 	font-size: 100px;
 	margin: 20px 40px;
+	background-image: url('/assets/mint-geometric1.jpg');
+	background-size: cover;
+	background-position: center center;
 }
 
 p{
