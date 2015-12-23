@@ -20,13 +20,13 @@ body {
 	background-position: top right;
 	overflow: hidden;
 	height:100%;
-	width:500px;
+	width:300px;
 	float:left;
 	padding:5px;
 }
 
 #section {
-	width:350px;
+	width:600px;
 	float:left;
 	padding:10px;
 }
@@ -36,6 +36,7 @@ h1{
 	font-family: 'Josefin Slab', serif;
 	font-size: 75px;
 	margin: 20px 40px;
+	white-space: pre;
 
 }
 
