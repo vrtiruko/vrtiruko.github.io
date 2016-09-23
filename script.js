@@ -53,11 +53,8 @@ app
   }
 }])
 
-.controller('print', ['$scope','ParseSvc', function($scope, ParseSvc){
-}])
-
-
-
+//.controller('print', ['$scope','ParseSvc', function($scope, ParseSvc){
+//}])
 
 .controller('login', ['$scope', '$rootScope','ParseSvc', function($scope, $rootScope, ParseSvc){
   //callback function to set global username on login sucess
