@@ -8,20 +8,10 @@ html {
 body {
 	height: 100%;
 	margin: 20px auto;
-	background-color: #96C8A2;
-	
-	
-}
-
-#sidebar {
-	background-image: url('/assets/mint-geometric1.jpg');
-	background-repeat: repeat;
+	background-image: url('/assets/fullbg.jpg');
+	background-repeat: no-repeat;
 	background-position: top right;
 	overflow: hidden;
-	height:100%;
-	width:300px;
-	float:left;
-	padding:5px;
 }
 
 #section {
@@ -31,7 +21,7 @@ body {
 }
 
 h1{
-	text-align: left;
+	text-align: center;
 	font-family: 'Josefin Slab', serif;
 	font-size: 75px;
 	margin: 20px 40px;
@@ -39,7 +29,7 @@ h1{
 }
 
 p{
-	text-align: left;
+	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 }
