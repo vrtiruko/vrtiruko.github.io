@@ -25,14 +25,14 @@ body {
    position: relative;
    float: center;
    padding-top: 250px;
-   padding-left: 150px;
+   padding-left: 230px;
    text-align: center;
 }
 
 h1{
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
-	font-size: 40px;
+	font-size: 50px;
 	color: #4f4f4f;
 
 }
