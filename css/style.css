@@ -23,7 +23,8 @@ body {
    height: 500px;
    position: relative;
    float: center;
-   padding-top: 500px;
+   padding-top: 250px;
+   text-align: center;
 }
 
 h1{
