@@ -11,6 +11,7 @@ html {
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
    position: relative;
    float: center;
    padding-top: 250px;
+   padding-left: 50px;
    text-align: center;
 }
 
