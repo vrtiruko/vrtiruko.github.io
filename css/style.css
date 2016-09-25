@@ -20,15 +20,24 @@ body {
 }
 
 .container {
-   width: 1000px;
-   height: 500px;
    position: fixed;
-   float: center;
    top: 50%;
    left: 50%;
-   margin-top: -250px;
-   margin-left: -500px;
    text-align: center;
+}
+
+.test{
+	width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 h1{
