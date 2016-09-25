@@ -12,6 +12,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
+  background-position: center center;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
     height: 150px;
 
     position: absolute;
-    top:0.5;
+    top:20px;
     bottom: 0;
     left: 0;
     right: 0;
