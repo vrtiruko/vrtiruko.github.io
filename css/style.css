@@ -20,14 +20,7 @@ body {
 	margin: 20px auto;
 }
 
-.container {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   text-align: center;
-}
-
-.test{
+.container{
 	width: 700px;
     height: 150px;
 
