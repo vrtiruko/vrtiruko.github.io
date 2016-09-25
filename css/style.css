@@ -27,9 +27,8 @@ body {
 }
 
 .test{
-	width: 100px;
-    height: 100px;
-    background-color: red;
+	width: 1000px;
+    height: 500px;
 
     position: absolute;
     top:0;
