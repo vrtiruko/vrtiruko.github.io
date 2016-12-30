@@ -169,7 +169,7 @@
       }
 
       //sometimes clouds are less opaque
-      if ( $.randomBetween(1, 3) === 2 ) {
+      if ( sizeRatio === 3 ) {
         cloud.css({ opacity: '0.' + $.randomBetween(5, 8) });
       }
 
@@ -203,9 +203,9 @@
       element
       .delay($.randomBetween(2000, 6000))
       .translate3d({
-        x: direction + $.randomBetween(30, 60)
+        x: direction + $.randomBetween(50, 80)
       },
-      $.randomBetween(6000, 7000),
+      $.randomBetween(8000, 9000),
       'linear',
       function() {
         $(document).trigger('jqlouds.wind', [ element ]);
@@ -215,9 +215,9 @@
       element
       .delay($.randomBetween(2000, 6000))
       .animate({
-        left: direction + '=' + $.randomBetween(10, 40)
+        left: direction + '=' + $.randomBetween(50, 80)
       },
-      $.randomBetween(6000, 7000),
+      $.randomBetween(8000, 9000),
       'linear',
       function() {
         $(document).trigger('jqlouds.wind', [ element ]);
