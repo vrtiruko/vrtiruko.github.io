@@ -201,7 +201,7 @@
     //applying movements
     if ( has3d ) {
       element
-      .delay($.randomBetween(2000, 6000))
+      .delay($.randomBetween(5000, 6000))
       .translate3d({
         x: direction + $.randomBetween(50, 80)
       },
@@ -213,7 +213,7 @@
     }
     else {
       element
-      .delay($.randomBetween(2000, 6000))
+      .delay($.randomBetween(5000, 6000))
       .animate({
         left: direction + '=' + $.randomBetween(50, 80)
       },
