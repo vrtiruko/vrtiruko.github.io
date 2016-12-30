@@ -10,53 +10,43 @@
 	<title>Varsha Tirukonda</title>
 	
 	<link rel="stylesheet" href="/css/style.css" type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript" src="vendor/jquery.simple-text-rotator.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendor/simpletextrotator.css" />
 </head>
 
-<body onload="fadeText()">
-	<br>
-	
-	<div class = "container">
-		<h1>VARSHA TIRUKONDA</h1>
-		<p class="quotes" style="text-align: center"> BSE Computer Science // University of Michigan </p>
-		<p class="quotes" style="text-align: center">Director // MHacks</p>
-		<p class="quotes" style="text-align: center">Developer // Maker // Soup Enthusiast</p>
-		
-		<div style="text-align: center">
-			<ul style="padding: 0 0 0 0">
-				<br>
-				<li><a href="mailto:vrtiruko@umich.edu" target=_blank><i class="fa fa-envelope-o fa-2x" style="color: #4f4f4f"></i></a></li>
-				<li><a href="https://resume.creddle.io/resume/2befli19zlu" target=_blank><i class="fa fa-file-text-o fa-2x" style="color: #4f4f4f"></i></a></li>
-				<li><a href="https://github.com/vrtiruko" target=_blank> <i class="fa fa-github fa-2x" style="color: #4f4f4f"></i></a></li>
-				<li><a href="http://www.facebook.com/varsha.tirukonda" target=_blank><i class="fa fa-facebook fa-2x" style="color: #4f4f4f"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/varsha-tirukonda-2ab7a2102" target=_blank><i class="fa fa-linkedin fa-2x" style="color: #4f4f4f"></i></a></li>
-			</ul>
+<body>
+	<div id="sky"></div>
+	<div class="content">
+		<h2>VARSHA TIRUKONDA</h2>
+		<p><span class="rotate">BSE Computer Science // University of Michigan,Director // MHacks,Stamps Leadership Scholar,Soup Enthusiast</span></p>
+		<div class="links">
+			<a href="mailto:vrtiruko@umich.edu" target=_blank><i class="fa fa-envelope-o fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://resume.creddle.io/resume/2befli19zlu" target=_blank><i class="fa fa-file-text-o fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/vrtiruko" target=_blank> <i class="fa fa-github fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/varsha.tirukonda" target=_blank><i class="fa fa-facebook fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/varsha-tirukonda-2ab7a2102"><i class="fa fa-linkedin fa-2x"></i></a>
 		</div>
 	</div>
 
+	<script src="vendor/jqlouds-1.0.0/dist/jquery.jqlouds.js" type="text/javascript"></script>
 	<script>
-		function fadeText() {
+		jQuery(function($) {
+			$('#sky').jQlouds({ skyHeight: 200, minClouds:2, maxClouds:5, wind:true, src:'assets/cloud.png', maxHeight:200, maxWidth: 350});
+		});
 
-		    var quotes = $(".quotes");
-		    var quoteIndex = -1;
-
-		    console.log("In first function");
-
-		    function showNextQuote() {
-		    	console.log("In second function");
-		        ++quoteIndex;
-		        quotes.eq(quoteIndex % quotes.length)
-		            .fadeIn(1000)
-		            .delay(2000)
-		            .fadeOut(1000, showNextQuote);
-		    };
-
-		    showNextQuote();
-
-		};
+		$(".rotate").textrotator({
+              animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+              separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+              speed: 3000 // How many milliseconds until the next word show.
+        });
 	</script>
+
+
 	
 </body>
+
+</html>

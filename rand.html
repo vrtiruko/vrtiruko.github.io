@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+    <meta name="author" content="">
+		
+	<title>Varsha Tirukonda</title>
+	
+	<link rel="stylesheet" href="/css/style.css" type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+
+<body onload="fadeText()">
+	<br>
+	
+	<div class = "container">
+		<h1>VARSHA TIRUKONDA</h1>
+		<p class="quotes" style="text-align: center"> BSE Computer Science // University of Michigan </p>
+		<p class="quotes" style="text-align: center">Director // MHacks</p>
+		<p class="quotes" style="text-align: center">Developer // Maker // Soup Enthusiast</p>
+		
+		<div style="text-align: center">
+			<ul style="padding: 0 0 0 0">
+				<br>
+				<li><a href="mailto:vrtiruko@umich.edu" target=_blank><i class="fa fa-envelope-o fa-2x" style="color: #4f4f4f"></i></a></li>
+				<li><a href="https://resume.creddle.io/resume/2befli19zlu" target=_blank><i class="fa fa-file-text-o fa-2x" style="color: #4f4f4f"></i></a></li>
+				<li><a href="https://github.com/vrtiruko" target=_blank> <i class="fa fa-github fa-2x" style="color: #4f4f4f"></i></a></li>
+				<li><a href="http://www.facebook.com/varsha.tirukonda" target=_blank><i class="fa fa-facebook fa-2x" style="color: #4f4f4f"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/varsha-tirukonda-2ab7a2102" target=_blank><i class="fa fa-linkedin fa-2x" style="color: #4f4f4f"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<script>
+		function fadeText() {
+
+		    var quotes = $(".quotes");
+		    var quoteIndex = -1;
+
+		    console.log("In first function");
+
+		    function showNextQuote() {
+		    	console.log("In second function");
+		        ++quoteIndex;
+		        quotes.eq(quoteIndex % quotes.length)
+		            .fadeIn(1000)
+		            .delay(2000)
+		            .fadeOut(1000, showNextQuote);
+		    };
+
+		    showNextQuote();
+
+		};
+	</script>
+	
+</body>
